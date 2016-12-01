@@ -1,5 +1,9 @@
+
 <!DOCTYPE html>
+<script src="ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
 <html lang="en-US">
+
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -12,7 +16,14 @@
     <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">    
-    
+<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="xEyes-14-min.js"></script>
+<script src="pc_d-min.js"></script>
+<link rel="stylesheet" type="text/css" href="pc_d-min.css">
+
+
+
+
 	<!-- Favcon -->
 		<link rel="shortcut icon" type="image/png" href="wp-content/favicon.png"/>
 	<title>Madan Lal -Resume</title>
@@ -50,6 +61,10 @@ img.emoji {
 <link rel='stylesheet' id='custom-style-css'  href='wp-content/themes/cards/css/custom8a54.css?ver=1.0.0' type='text/css' media='all' />
 <script type='text/javascript' src='wp-includes/js/jquery/jqueryc1d8.js?ver=1.11.3'></script>
 <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
+
+
+
+
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 4.3.5" />
@@ -61,7 +76,9 @@ img.emoji {
         		
 		        	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 </head>
-<body class="home page page-id-6 page-template page-template-tpl-one-page page-template-tpl-one-page-php">
+<body class="home page page-id-6 page-template page-template-tpl-one-page page-template-tpl-one-page-php" topmargin="0" leftmargin="0"
+    style="-webkit-transform-style: preserve-3d; "
+	onload = "start()" >
 
 <!-- Page Loader
 ========================================================= -->
@@ -102,7 +119,20 @@ img.emoji {
 <div class="section-vcardbody section-home" id="section-home">
 	<!-- Profile pic-->
 	<div class="vcard-profile-pic">
-		<img src="wp-content/uploads/2015/12/profile2.jpg" id="profile2"  alt=""/>		<img src="wp-content/uploads/2015/12/profile.jpg" id="profile1" class="profileActive" alt=""/>	</div>
+		<img id="profile2"  alt=""/>		
+		<img id="profile1" class="profileActive" alt=""/>	</div>
+		
+		
+<div id="preload">
+   <img src="front/copelandx.png" width="1" height="1"  />
+   <img src="front/eye.png" width="1" height="1"  />
+   <img src="front/texture.png" width="1" height="1"  />
+</div>
+<div class="f1_container2" style ="position: absolute; left: 00px; top: -5px;">
+    <img id="face" src="front/copelandx.png" alt="face" style = "top:10px;left:100px;">
+    <img id="leftEye" src="front/eye.png" alt="eye">
+    <img id="rightEye" src="front/eye.png" alt="eye">
+</div>  
 	<!-- /Profile pic -->
 	<!-- Description -->
 	<div class="vcard-profile-description">
@@ -204,7 +234,7 @@ img.emoji {
 	<!-- /Graduation time -->
 	<!-- content -->
 	<div class="graduation-description">
-	  <p>Working on mobile appilcation testing automation product <a href="http://www.quantyzd.com">Quantyzd</a> </p>
+	  <p>Working on mobile appilcation testing automation product <a href="http://sofy.ai/">Sofy.ai</a> </p>
 	   
 	</div>
 	<!-- /Content -->
