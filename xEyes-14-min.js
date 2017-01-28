@@ -40,7 +40,7 @@ Xeyes.prototype.eyesInit = function(a) {
         var j = document.documentElement && null != document.documentElement.scrollLeft ? document.documentElement : document.body;
         b = a.clientX + j.scrollLeft, c = a.clientY + j.scrollTop
     } else b = a.pageX + 100, c = a.pageY;
-    f = b - this.e1x, g = c - this.e1y, h = Math.sqrt(f * f + g * g), d = h < this.r1 ? f : f * this.r1 / h * .8, e = h < this.r1 ? g : g * this.r1 / h * .3, this.eye1Obj.style.left = d + this.e1xLoc + "px", this.eye1Obj.style.top = e + this.e1yLoc + "px", f = b - this.e2x, g = c - this.e2y, h = Math.sqrt(f * f + g * g), d = h < this.r2 ? f : f * this.r2 / h * .8, e = h < this.r2 ? g : g * this.r2 / h * .3, this.eye2Obj.style.left = d + this.e2xLoc + "px", this.eye2Obj.style.top = e + this.e2yLoc + "px", window.setTimeout(function() {
+    f = b - this.e1x, g = c - this.e1y, h = Math.sqrt(f * f + g * g), d = h < this.r1 ? f : f * this.r1 / h * .2, e = h < this.r1 ? g : g * this.r1 / h * .3, this.eye1Obj.style.left = d + this.e1xLoc + "px", this.eye1Obj.style.top = e + this.e1yLoc + "px", f = b - this.e2x, g = c - this.e2y, h = Math.sqrt(f * f + g * g), d = h < this.r2 ? f : f * this.r2 / h * .25, e = h < this.r2 ? g : g * this.r2 / h * .3, this.eye2Obj.style.left = d + this.e2xLoc + "px", this.eye2Obj.style.top = e + this.e2yLoc + "px", window.setTimeout(function() {
         document.onmousemove = associateObjWithEvent(i, "eyesMove")
     }, 90)
 };
