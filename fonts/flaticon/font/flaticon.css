@@ -1,12 +1,13 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 07/12/2018 03:18
+  	Creation date: 30/08/2019 12:57
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -24,21 +25,13 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-  
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
 }
 
-.flaticon-camera:before { content: "\f100"; }
-.flaticon-picture:before { content: "\f101"; }
-.flaticon-sheep:before { content: "\f102"; }
-.flaticon-frame:before { content: "\f103"; }
-.flaticon-eiffel-tower:before { content: "\f104"; }
-.flaticon-video-play:before { content: "\f105"; }
+.flaticon-rose-variant-outline-with-vines:before { content: "\f100"; }
+.flaticon-rose-outline-variant-with-vines-and-leaves:before { content: "\f101"; }
+.flaticon-reception-bell:before { content: "\f102"; }
+.flaticon-wedding-kiss:before { content: "\f103"; }
+.flaticon-cake:before { content: "\f104"; }
